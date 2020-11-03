@@ -1,12 +1,7 @@
-@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700');
 
 body{ font-size: 14px; color: #333; list-style: 26px;font-family: 'Roboto', sans-serif; }
 
-/** ======================  base css ==============================**/
-
 a:hover{ text-decoration: none; }
-/** ======================  header ==============================**/
 .header{ background-color: #3c8dbc }
 .header .dropdown-menu {
     position: absolute;
@@ -18,22 +13,18 @@ a:hover{ text-decoration: none; }
     float: left;
     width: 25px;
     height: 25px;
-    border-radius: 50%;
     margin-right: 10px;
-    margin-top: -2px;
 }
 
-.header .navbar-light .navbar-nav .nav-link{ color: #fff }
-.header .navbar-light .navbar-nav .nav-link:hover, .header .navbar-light .navbar-nav .nav-link:focus   {
-    
-       background: rgba(0,0,0,0.1);
-    color: #f6f6f6;
-}
 .header .fa.fa-fw.fa-bars{ color: #fff; }
-.header .navbar-light .navbar-nav .nav-link {
-    color: #fff;
-    padding: 10px 20px;
-    position: relative;
+.sub-menu{ border-left:0px solid #dedede;}
+	.sidebar li a .nav-label,.sidebar li a .nav-label+span{ transition: all 0.5s  ease-in-out}
+	
+
+	.sidebar.fliph li a .nav-label,.sidebar.fliph li a .nav-label+span{ display:none;transition: all 0.5s  ease-in-out}
+	.sidebar.fliph {
+    width: 42px;transition: all 0.5s  ease-in-out;
+   
 }
 .header  li>a>.label {
     position: absolute;
@@ -119,16 +110,14 @@ a.navbar-brand {
     width: 165px;
 }
 
+.sidebar{
+     width:220px;  
+     background-color:#000;
+     transition: all 0.5s  ease-in-out; }
 
-/***    left menu ****/
-
-/***********************  TOP Bar ********************/
-.sidebar{ width:220px;  background-color:#000;transition: all 0.5s  ease-in-out; }
-.bg-defoult{background-color:#222;}
 .sidebar ul{ list-style:none; margin:0px; padding:0px; }
-.sidebar li a,.sidebar li a.collapsed.active{ display:block; padding:8px 12px; color:#fff;border-left:0px solid #dedede;  text-decoration:none}
-.sidebar li a.active{background-color:#000;border-left:5px solid #dedede; transition: all 0.5s  ease-in-out}
-.sidebar li a:hover{background-color:#000 !important;}
+.sidebar li a,.sidebar li a.collapsed.active{ display:block; padding:8px 12px; color:#fff;border-left:0px solid #dedede;  text-decoration:none;font-size: 20px;}
+
 .sidebar li a i{ padding-right:5px;}
 .sidebar ul li .sub-menu li a{ position:relative}
 .sidebar ul li .sub-menu li a:before{
@@ -142,22 +131,13 @@ a.navbar-brand {
 .sidebar ul li .sub-menu li a:hover:after {
     content: "";
     position: absolute;
-    left: -5px;
     top: 0;
     width: 5px;
     background-color: #111;
     height: 100%;
 }
-.sidebar ul li .sub-menu li a:hover{ background-color:#222; padding-left:20px; transition: all 0.5s  ease-in-out}
-.sub-menu{ border-left:5px solid #dedede;}
-	.sidebar li a .nav-label,.sidebar li a .nav-label+span{ transition: all 0.5s  ease-in-out}
-	
+.sidebar ul li .sub-menu li a:hover{ background-color: #1f91d4;; padding-left:20px; transition: all 0.5s  ease-in-out}
 
-	.sidebar.fliph li a .nav-label,.sidebar.fliph li a .nav-label+span{ display:none;transition: all 0.5s  ease-in-out}
-	.sidebar.fliph {
-    width: 42px;transition: all 0.5s  ease-in-out;
-   
-}
 	
 .sidebar.fliph li{ position:relative}
 .sidebar.fliph .sub-menu {
@@ -211,3 +191,98 @@ aside {
 .navigation {
     float: left;
 }
+.logo-image {
+    width: 100%;
+}
+.mlogo {
+    background-color: black;
+    padding: 10px 2px 20px 0px;
+}
+
+.buy:hover {
+    color: #1f91d4;
+}
+.sales:hover {
+    color: #1f91d4;
+}
+.Property:hover {
+    color: #1f91d4;
+}
+.realty:hover {
+    color: #1f91d4;
+}
+.mr9:hover {
+    color: #1f91d4;
+}
+.about:hover {
+    color: #1f91d4;
+}
+.map:hover {
+    color: #1f91d4;
+}
+.contact:hover {
+    color: #1f91d4;
+}
+
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  ul li {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(88, 191, 250, 0.8);
+  }
+  
+  ul li .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+  }
+  
+  .slider {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 51px;
+    width: 0px;
+    height: 50px;
+    background:  #1f91d4;
+    transition: all 0.5s 0.2s ease;
+  }
+  
+  .slider p {
+    font-family: arial;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    color: #001233;
+    text-align: center;
+    line-height: 50px;
+    opacity: 0;
+    transition: all 0.8s ease;
+  }
+  
+  ul li:hover .slider {
+    width: 170px;
+    transition: all 0.5s ease;
+  }
+  
+  ul li:hover .slider p {
+    opacity: 1;
+    transition: all 1s 0.2s ease;
+  }
+  

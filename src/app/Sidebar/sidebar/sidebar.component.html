@@ -1,12 +1,16 @@
 <div class="navigation">
-    <aside>
+    <aside *ngIf="showSideBar">
         <div class="sidebar left ">
-            <div class="user-panel">
-                <img src="http://via.placeholder.com/160x160" class="rounded-circle" alt="User Image">
+            <div class="mlogo">
+                <img src="assets/images/logo.png" class="logo-image" alt="Logo">
             </div>
             <ul class="list-sidebar bg-defoult">
-                <li> <a href="#" data-toggle="collapse" data-target="#dashboard" class="collapsed active"> <i
-                            class="fa fa-th-large"></i> <span class="nav-label"> Buy </span></a>
+                <li> <a href="#" data-toggle="collapse" data-target="#dashboard" class="collapsed active">
+                        <span class="nav-label"><i aria-hidden="true" class="fas fa-store-alt buy"></i></span>
+                        <div class="slider ">
+                            <p class="realty-dropdown-hover">Buy</p>
+                        </div>
+                    </a>
                     <ul class="sub-menu collapse" id="dashboard">
                         <li class="active"><a href="#">CSS3 Animation</a></li>
                         <li><a href="#">General</a></li>
@@ -20,47 +24,55 @@
                         <li><a href="#">Bootstrap Model</a></li>
                     </ul>
                 </li>
-                <li> <a href="#"><i class="fa fa-diamond"></i> <span class="nav-label">Sales</span></a> </li>
+                <li> <a href="#"><i class="fa fa-line-chart" aria-hidden="true"></i> <span class="nav-label"><i
+                                class="fas fa-university sales" aria-hidden="true"></i></span>
+                        <div class="slider">
+                            <p>Sales</p>
+                        </div>
+                    </a> 
+                </li>
                 <li> <a href="#" data-toggle="collapse" data-target="#products" class="collapsed active"> <i
-                            class="fa fa-bar-chart-o"></i> <span class="nav-label">Submit Property</span> <span
-                            class="fa fa-chevron-left pull-right"></span> </a>
-                    <ul class="sub-menu collapse" id="products">
-                        <li class="active"><a href="#">CSS3 Animation</a></li>
-                        <li><a href="#">General</a></li>
-                        <li><a href="#">Buttons</a></li>
-                        <li><a href="#">Tabs & Accordions</a></li>
-                        <li><a href="#">Typography</a></li>
-                        <li><a href="#">FontAwesome</a></li>
-                        <li><a href="#">Slider</a></li>
-                        <li><a href="#">Panels</a></li>
-                        <li><a href="#">Widgets</a></li>
-                        <li><a href="#">Bootstrap Model</a></li>
-                    </ul>
+                            class="fa fa-home Property" aria-hidden="true"></i> <span class="nav-label">
+                                <i class="fas fa-house-user" aria-hidden="true"></i></span>
+                        <div class="slider">
+                            <p>Property Users</p>
+                        </div>
+                    </a>
                 </li>
-                <li> <a href="#"><i class="fa fa-laptop"></i> <span class="nav-label">Realty News</span></a> </li>
-                <li> <a href="#" data-toggle="collapse" data-target="#tables" class="collapsed active"><i
-                            class="fa fa-table"></i> <span class="nav-label">MR.9</span><span
-                            class="fa fa-chevron-left pull-right"></span></a>
-                    <ul class="sub-menu collapse" id="tables">
-                        <li><a href=""> Static Tables</a></li>
-                        <li><a href=""> Data Tables</a></li>
-                        <li><a href=""> Foo Tables</a></li>
-                        <li><a href=""> jqGrid</a></li>
-                    </ul>
+                <li> <a href="#"><span class="nav-label"><i class="far fa-newspaper realty"
+                                aria-hidden="true"></i></span>
+                        <div class="slider">
+                            <p>Realty News</p>
+                        </div>
+                    </a> 
                 </li>
-                <li> <a href=""><i class="fa fa-pie-chart"></i> <span class="nav-label">About Us</span> </a></li>
-                <li> <a href="#"><i class="fa fa-files-o"></i> <span class="nav-label">Maps</span></a> </li>
-                <li> <a href="#" data-toggle="collapse" data-target="#e-commerce" class="collapsed active"><i
-                    class="fa fa-shopping-cart"></i> <span class="nav-label">Contact Us</span><span
-                    class="fa fa-chevron-left pull-right"></span></a>
-            <ul class="sub-menu collapse" id="e-commerce">
-                <li><a href=""> Email</a></li>
-                <li><a href=""> Twitter</a></li>
-                <li><a href="">Facebook</a></li>
-                <li><a href=""> LinkedIn</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href=""> WhatsApp</a></li>
-            </ul>
+                <li> <a href="#" data-toggle="collapse" data-target="#tables" class="collapsed active"><span
+                            class="nav-label"><i class="fas fa-universal-access mr9" aria-hidden="true"></i></span>
+                        <div class="slider">
+                            <p>MR.9</p>
+                        </div>
+                    </a>
+                </li>
+                <li> <a href=""><i class="fa fa-user-o" aria-hidden="true"></i><span class="nav-label">
+                    <i class="far fa-address-card about" aria-hidden="true"></i></span>
+                        <div class="slider">
+                            <p>About Us</p>
+                        </div>
+                    </a>
+                </li>
+                <li> <a href="#"><span class="nav-label"><i class="fas fa-map-marker-alt map"aria-hidden="true"></i></span>
+                        <div class="slider">
+                            <p>Map</p>
+                        </div>
+                    </a> 
+                </li>
+                <li> <a href="#" data-toggle="collapse" data-target="#e-commerce" class="collapsed active">
+                    <i class="fa fa-phone contact" aria-hidden="true"></i><span class="nav-label"></span>
+                        <div class="slider">
+                            <p>Contact Us</p>
+                        </div>
+                    </a>
+                </li>
             </ul>
         </div>
     </aside>
