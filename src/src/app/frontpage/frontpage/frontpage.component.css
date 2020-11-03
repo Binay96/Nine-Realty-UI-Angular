@@ -1,0 +1,10 @@
+.button {
+    font-size: 20px;
+}
+.card {
+    width: 11em;
+    background-color: black;
+}
+a:hover {
+    text-decoration: none;
+}
