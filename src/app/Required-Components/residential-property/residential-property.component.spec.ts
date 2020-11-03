@@ -8,9 +8,9 @@ describe('ResidentialPropertyComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ResidentialPropertyComponent ]
+      declarations: [ResidentialPropertyComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
