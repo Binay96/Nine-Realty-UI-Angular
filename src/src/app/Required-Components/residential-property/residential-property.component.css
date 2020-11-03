@@ -1,0 +1,83 @@
+.test {
+    background-color: blue;
+    float: right;
+    width: 70em;
+    height: 25em;
+}
+.form-control-location {
+    width: 17em;
+    height: 3em;
+}
+.form-control-type {
+    height: 3em;
+    width: 10em;
+    padding-left: 0px;
+    margin-left: -6px;
+}
+.form-control-budget {
+    height: 3em;
+    width: 9em;
+    padding-left: 0px;
+    margin-left: -6px;
+}
+.btn-group {
+    margin: 25px 0px 25px 60px;
+}
+.form-row>.col {
+    padding: 0px;
+}
+.srch {
+    margin-left: 5px;
+}
+.btn {
+    margin-left: 5px;
+}
+.tbuy {
+    border-bottom: 1px solid #dadada;
+}
+.tsale {
+    border-bottom: 1px solid #dadada;
+}
+.tuser {
+    border-bottom: 1px solid #dadada;
+}
+.tnews {
+    border-bottom: 1px solid #dadada;
+}
+.tnine {
+    border-bottom: 1px solid #dadada;
+}
+.tabout {
+    border-bottom: 1px solid #dadada;
+}
+.tmap {
+    border-bottom: 1px solid #dadada;
+}
+.tcontact {
+    border-bottom: 1px solid #dadada;
+}
+.dropdown {
+    width: 7em;
+}
+.mr-auto {
+    margin-left: 7em;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #caf0f8;
+}
+.bg-light {
+    background-color: black!important;
+    margin-top: 30px;
+}
+.nav-link {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(88, 191, 250, 0.8);
+}
+
+
+
+
