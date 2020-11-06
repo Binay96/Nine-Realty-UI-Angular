@@ -112,7 +112,6 @@ a.navbar-brand {
 
 .sidebar{
      width:220px;  
-     background-color:#000;
      transition: all 0.5s  ease-in-out; }
 
 .sidebar ul{ list-style:none; margin:0px; padding:0px; }
@@ -190,13 +189,17 @@ aside {
 }
 .navigation {
     float: left;
+    position: fixed;
+    top: 1%;
+    z-index: 2;
+    background: transparent;
+    margin-top: 8em;
 }
 .logo-image {
-    width: 100%;
+    height: 6em;
 }
 .mlogo {
-    background-color: black;
-    padding: 10px 2px 20px 0px;
+    padding: 20px 2px 20px 0px;
 }
 
 .buy:hover {
@@ -260,7 +263,7 @@ aside {
     left: 51px;
     width: 0px;
     height: 50px;
-    background:  #1f91d4;
+    background:  #007effb8;
     transition: all 0.5s 0.2s ease;
   }
   
@@ -284,5 +287,29 @@ aside {
   ul li:hover .slider p {
     opacity: 1;
     transition: all 1s 0.2s ease;
+  }
+  .buys {
+    background-color: #007effb8;
+  }
+  .sal {
+    background-color: #007effb8;
+  }
+  .pusers {
+    background-color: #007effb8;
+  }
+  .rnews {
+    background-color: #007effb8;
+  }
+  .m9 {
+    background-color: #007effb8;
+  }
+  .about {
+    background-color: #007effb8;
+  }
+  .map {
+    background-color: #007effb8;
+  }
+  .contact {
+    background-color: #007effb8;
   }
   

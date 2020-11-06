@@ -18,6 +18,7 @@ import { ConstructionComponent } from './construction/construction.component';
 import { RealestateConsultancesComponent } from './realestate-consultances/realestate-consultances.component';
 import { ReranoComponent } from './rerano/rerano.component';
 import { DisclaimerComponent } from './disclaimer/disclaimer.component';
+import { HeadelementComponent } from './headelement/headelement.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { DisclaimerComponent } from './disclaimer/disclaimer.component';
     RealestateConsultancesComponent,
     ReranoComponent,
     DisclaimerComponent,
+    HeadelementComponent,
   ],
   imports: [
     BrowserModule,
