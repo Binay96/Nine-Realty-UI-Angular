@@ -20,16 +20,174 @@
     left: 14em;
     font-size: 40px;
     font-weight: 700;
+    line-height: 50px;
 }
 .lastext {
     position: absolute;
-    top: 10em;
+    top: 9em;
     left: 28em;
     font-size: 20px;
 }
 .loansrch {
-    width: 14em;
+    width: 17em;
     position: absolute;
-    top: 5em;
+    top: 3em;
     left: 66em;
+    background: white;
+    border-radius: 4px;
+}
+.form-control {
+    width: 14em;
+    margin-left: 1em;
+    padding: 0px;
+}
+.headline {
+    text-align: center;
+    border-bottom: 1px solid #a8cddf;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+}
+.la {
+    font-weight: 500;
+    margin-left: 15px;
+}
+.mn {
+    font-weight: 500;
+    margin-left: 15px;
+}
+.btn-primary {
+    width: 15em;
+    margin-left: 15px;
+    margin-bottom: 25px;
+}
+.hworks {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 35px;
+}
+.svgi {
+    height: 6em;
+    font-size: inherit;
+    vertical-align: middle;
+    color: inherit;
+    fill: currentColor;
+}
+.hiw {
+    width: 288px;
+    height: 218px;
+    margin-right: 16px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    padding: 24px;
+    border-radius: 4px;
+    background-clip: padding-box;
+    box-shadow: 0 1px 3px 0 rgba(48,48,48,.4);
+}
+.hiw2 {
+    width: 288px;
+    height: 218px;
+    margin-right: 16px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    padding: 24px;
+    border-radius: 4px;
+    background-clip: padding-box;
+    box-shadow: 0 1px 3px 0 rgba(48,48,48,.4);
+}
+.hiw3 {
+    width: 288px;
+    height: 218px;
+    margin-right: 16px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    padding: 24px;
+    border-radius: 4px;
+    background-clip: padding-box;
+    box-shadow: 0 1px 3px 0 rgba(48,48,48,.4);
+}
+.hiw4 {
+    width: 288px;
+    height: 218px;
+    margin-right: 16px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    padding: 24px;
+    border-radius: 4px;
+    background-clip: padding-box;
+    box-shadow: 0 1px 3px 0 rgba(48,48,48,.4);
+}
+.form-text {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 12px;
+}
+.form-person {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.form-bank {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 12px;
+}
+.form-payment {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.image-contact {
+    width: 35em;
+}
+.row-c {
+    background-color: #bde7ff;
+    margin-top: 5em;
+    height: 25em;
+}
+.contactusltr {
+    bottom: 18em;
+    left: 30em;
+}
+.cus {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.cl {
+    font-weight: 500;
+}
+.ml {
+    font-weight: 500;
+}
+.image-reception {
+    width: 27em;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+.row-r {
+    background-color: #bbddf6;
+    margin-top: 5em;
+    height: 25em;
+}
+.reception {
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 5em;
+    margin-bottom: 0px;
+    padding-top: 20px;
+}
+.recp {
+    left: 34em;
+    bottom: 18em;
+}
+.about-reception {
+    margin-top: 1em;
+    padding: 1px;
 }
