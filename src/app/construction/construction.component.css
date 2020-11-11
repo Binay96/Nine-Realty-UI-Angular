@@ -6,3 +6,20 @@
     font-weight: 500;
     color: #007effb8!important;
 }
+.construction {
+    margin-top: 4em;
+}
+.row-con {
+    text-align: center;
+    color: #dee2e6;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+.card {
+    background-color: black;
+}
+.card-title {
+    color: #bee9e8;
+    text-align: center;
+}
