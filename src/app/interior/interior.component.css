@@ -6,3 +6,123 @@
     font-weight: 500;
     color: #007effb8!important;
 }
+.letter {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 2em;
+}
+.ploan {
+    width: 85.3em;
+}
+.hloan {
+    position: absolute;
+    top: 3em;
+    left: 10em;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 0px;
+}
+.lastext {
+    position: absolute;
+    top: 9em;
+    left: 18em;
+    font-size: 20px;
+}
+.image {
+    width: 25em;
+    border-radius: 5px;
+    margin-top: 7em;
+    margin-left: 3em;
+}
+.row-i {
+    
+    height: 38em;
+}
+.second {
+    left: 32em;
+    bottom: 23em;
+}
+.first-line {
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.one {
+    font-weight: 500;
+}
+.two {
+    font-weight: 500;
+}
+.second-line {
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.small-para-two {
+    padding: 2px 10px 2px 0px;
+    font-size: 14px;
+    margin-bottom: 3em;
+}
+.three {
+    font-weight: 500;
+}
+.three-line {
+    font-size: 18px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+.small-para-three {
+    padding: 2px 10px 2px 0px;
+    font-size: 14px;
+}
+.row-heading {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+}
+.how {
+    margin-top: 5em;
+    background-color: #a1ccd3;;
+}
+.interpara {
+    padding-top: 30px;
+}
+.why {
+    background-color: #f0f8ff;
+    margin-top: 5em;
+}
+.small {
+    font-size: 25px;
+    font-weight: 500;
+}
+.rightc {
+    margin: 35px 20px 25px 10px;
+    padding: 30px 20px 15px 5px;
+}
+.main-para {
+    font-size: 18px;
+}
+.small-para {
+    padding-right: 70px;
+    font-size: 14px;
+    margin-bottom: 3em;
+    padding: 2px 10px 2px 0px;
+
+}
+.sub-paraone {
+    padding-right: 10em;
+    font-size: 14px;
+    margin-bottom: 3em;
+    
+}
+.sub-paratwo {
+    padding-right: 11em;
+    font-size: 14px;
+    margin-bottom: 3em;
+}
+.sub-parathree {
+    padding-right: 8em;
+    font-size: 14px;
+    margin-bottom: 3em;
+}
